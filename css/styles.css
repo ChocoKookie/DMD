@@ -1,0 +1,159 @@
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0px;
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 25px;
+  color: #1b1b3d;
+  background-color: #e9f0f7;
+}
+
+nav{
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  right: 0;
+}
+
+.navigation {
+ text-align: center;
+}
+
+.navigation li {
+ display: inline-block;
+ margin: 0 69px;
+ font-size: 25px;
+ font-family: 'Permanent Marker', cursive;
+ font-weight: 900;
+}
+
+.navigation li a{
+color: #5e642f;
+text-decoration: none;
+}
+
+.top-container{
+  width: 500px;
+  margin: auto;
+}
+
+h1, h2 {
+  font-family: 'Permanent Marker', cursive;
+  font-weight: normal;
+}
+
+h3, h4 {
+  font-family: 'Reenie Beanie', cursive;
+  font-weight: bolder;
+  font-size: 30px;
+  color: #9d234a;
+}
+h1 {
+  font-size: 45px;
+  font-weight: normal;
+  margin: 0;
+}
+
+h2 {
+  color:#1b1b3d;
+  font-size: 40px;
+}
+
+h4 {
+  background-color: #c7dbf6;
+  display: inline-block;
+  margin: 0;
+  padding: 4px;
+  position: absolute;
+  z-index: 1;
+  top: -20px;
+}
+
+.left-col, .right-col{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-col{
+  background-color: #ffeb72f5;
+  text-align: right;
+  color:#31341b;
+  font-size: 25px;
+}
+
+.right-col{
+  background-color: #ffaaa5;
+  font-size: 25px;
+  text-align: center;
+}
+
+.too-long{
+  line-height: 120%;
+}
+
+.intro {
+  color:#1b1b3d;
+  text-align: center;
+  font-size: 35px;
+}
+
+p {
+  line-height: 50px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.pt1 {
+  position: relative;
+  width: 100%;
+}
+
+.xtr-gutters {
+  padding: 0 40px;
+}
+
+.right-aligned{
+  text-align: right;
+}
+
+.p {
+  right: 0;
+}
+
+.b{
+  text-align: right;
+  line-height: normal;
+}
+
+.pb{
+  text-align: right;
+  line-height: normal;
+}
+
+footer {
+  background-color: #cd7070;
+  background-image: url('../img/socialmedia.svg');
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icon {
+  height: 60px;
+  margin: 15px 40px;
+}
+
+.social-icon-container{
+  text-align: center;
+}
